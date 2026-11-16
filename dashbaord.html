@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard | Nova Workspace</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="dashboard-shell">
+    <aside class="sidebar">
+      <div class="brand">Nova Workspace</div>
+      <p>OVERVIEW</p>
+      <p>Dashboard</p>
+      <p>Account</p>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <h1>Dashboard</h1>
+        <button id="logoutBtn" class="logout" type="button">Log out</button>
+      </header>
+      <p id="welcome" class="welcome">Loading your account...</p>
+      <section class="cards">
+        <article class="card"><small>Account status</small><strong>Active</strong></article>
+        <article class="card"><small>Workspace</small><strong>Personal</strong></article>
+        <article class="card"><small>Access</small><strong>Verified</strong></article>
+      </section>
+      <section class="card profile">
+        <h2>Your profile</h2>
+        <p><strong>Name:</strong> <span id="profileName">—</span></p>
+        <p><strong>Email:</strong> <span id="profileEmail">—</span></p>
+      </section>
+    </main>
+    <script src="/dashboard.js" defer></script>
+  </div>
+</body>
+</html>
